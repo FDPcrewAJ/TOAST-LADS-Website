@@ -1,0 +1,7 @@
+@font-face {
+    font-family: CanvasScript;
+    src: url(canvas-script-reg.ttf);
+ }
+ h1 {
+    font-family: CanvasScript;
+ }

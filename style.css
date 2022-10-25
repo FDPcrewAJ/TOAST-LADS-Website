@@ -1,7 +1,43 @@
+body {
+   background-color: #DEBC23;
+}
 @font-face {
     font-family: CanvasScript;
     src: url(canvas-script-reg.ttf);
  }
+
  h1 {
-    font-family: CanvasScript;
+   font-family: CanvasScript;
+   font-size: 80px;
+   text-align: center;
+   margin: 2px;
  }
+
+#TLlogo {
+   text-align: center;
+   margin-left: 10px;
+   margin-top: 10px;
+   float: left;
+   border-color: black;
+   border-width: 20x;
+   border-style: solid;
+   background-color: #ffff8c;
+   padding: 44px;
+}
+
+#OGPC {
+   float: left;
+   clear: left;
+   margin-left: 10px;
+   margin-top: 10px;
+   border-color: black;
+   border-width: 20x;
+   border-style: solid;
+   background-color: #ffff8c;
+   padding: 5px;
+}
+
+#logos {
+   float: left;
+   clear: left;
+}

@@ -1,11 +1,27 @@
 body {
    background-color: #DEBC23;
 }
+
 @font-face {
     font-family: CanvasScript;
     src: url(fonts/canvas-script-reg.ttf);
  }
+@font-face {
+   font-family: Heading;
+   src: url(fonts/oswald.ttf);
+}
+@font-face {
+   font-family: Regular;
+   src: url(fonts/raleway.ttf);
+}
 
+h1,h2,h3 {
+   font-family: Heading;
+}
+
+p {
+   font-family: Regular;
+}
  #TLtext {
    font-family: CanvasScript;
    font-size: 80px;
@@ -49,6 +65,14 @@ body {
    margin: 0 auto;
 }
 
+#ReGame {
+   float: right;
+   clear: right;
+   clear: left;
+   text-align: center;
+   margin: 5px;
+ }
+
 nav {
    float: right;
    margin: 5px;
@@ -71,6 +95,7 @@ nav a {
    border: 4px solid #1bb9f2;
    font-size: 50px;
    border-radius: 5px;
+   font-family: Heading;
  }
 
  nav a:hover {
@@ -78,3 +103,4 @@ nav a {
    color: #1bb9f2;
    border: 4px solid #ad792d;
  }
+

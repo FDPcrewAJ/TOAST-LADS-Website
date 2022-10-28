@@ -58,17 +58,15 @@ p {
    clear: left;
 }
 
-#HPdivider {
+#PHdivider {
    height: 1097px;
    width: 145px;
-   display: block;
-   margin: 0 auto;
+   float: left;
+   clear: left;
 }
 
 #ReGame {
    float: right;
-   clear: right;
-   clear: left;
    text-align: center;
    margin: 5px;
  }

@@ -62,23 +62,39 @@ p {
    float: left;
    clear: left;
    text-align: center;
-   margin: 5px;
-   padding-left: 10%;
-   padding-right: 10%;
+   margin: 40;
+   padding-left: 188px;
+   padding-right: 188px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   background-color: #ffff8c;
+   border: solid;
+   border-color: black;
+   
 }
 
-#ReGame {
+.ReGame {
    width: 700px;
    text-overflow: ellipsis;
    white-space: wrap;
-   margin: 10px;
    font-family: Regular;
  }
+
+#ReGameP {
+   float: left;
+   clear: left;
+   text-align: center;
+   margin: inherit;
+   padding: 10px;
+   background-color: #ffff8c;
+   border: solid;
+   border-color: black;
+}
 
 nav {
    float: left;
    clear: left;
-   margin: 5px;
+   margin: inherit;
    padding: 25px;
 }
 

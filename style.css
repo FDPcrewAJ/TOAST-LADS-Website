@@ -58,13 +58,22 @@ p {
    clear: right;
 }
 
+.ReGame {
+   width: 756px;
+   text-overflow: ellipsis;
+   white-space: wrap;
+   font-family: Regular;
+ }
+
 #ReGameT {
    float: left;
    clear: left;
    text-align: center;
-   margin: 40;
-   padding-left: 188px;
-   padding-right: 188px;
+   margin-left: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-left: 211px;
+   padding-right: 211px;
    padding-bottom: 5px;
    padding-top: 5px;
    background-color: #ffff8c;
@@ -73,22 +82,33 @@ p {
    
 }
 
-.ReGame {
-   width: 700px;
-   text-overflow: ellipsis;
-   white-space: wrap;
-   font-family: Regular;
- }
-
 #ReGameP {
    float: left;
    clear: left;
    text-align: center;
-   margin: inherit;
+   margin-left: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #ffff8c;
+   border: solid;
+   border-color: black;
+}
+
+#ReGameV {
+   float: left;
+   clear: left;
    padding: 10px;
    background-color: #ffff8c;
    border: solid;
    border-color: black;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
 nav {
